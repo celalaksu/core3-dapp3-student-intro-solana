@@ -44,7 +44,6 @@ pub fn add_student_intro(
     msg!("Name: {}", name);
     msg!("Message: {}", message);
     
-    
    // Get Account iterator
    let account_info_iter = &mut accounts.iter();
 
