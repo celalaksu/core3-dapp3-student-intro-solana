@@ -39,6 +39,12 @@ pub fn add_student_intro(
     name: String,
     message: String,
 ) -> ProgramResult {
+
+    msg!("Adding student intro..");
+    msg!("Name: {}", name);
+    msg!("Message: {}", message);
+    
+    
    // Get Account iterator
    let account_info_iter = &mut accounts.iter();
 
